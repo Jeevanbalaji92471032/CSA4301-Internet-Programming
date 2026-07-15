@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jeevan</title>
+
+    <style>
+        body{
+            background-color:lightblue;
+            font-family:Cambria;
+            font-size:14px;
+            margin:0;
+        }
+
+        .container{
+            width:80%;
+            margin:auto;
+            text-align:center;
+            padding:20px;
+        }
+
+        h1{
+            color:darkblue;
+        }
+
+        h2{
+            color:blue;
+        }
+
+        p{
+            color:#003366;
+            line-height:1.6;
+        }
+
+        marquee{
+            color:blue;
+            font-weight:bold;
+            margin:15px 0;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(2,180px);
+            gap:15px;
+            justify-content:center;
+            margin:20px;
+        }
+
+        .box{
+            background:white;
+            border:2px solid blue;
+            padding:20px;
+            border-radius:10px;
+            color:blue;
+        }
+
+        button{
+            background:blue;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        button:hover{
+            background:darkblue;
+        }
+
+        .footer{
+            margin-top:30px;
+            color:navy;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Welcome to Jeevan</h1>
+
+    <marquee>
+        Welcome to Jeevan - A simple website created using HTML and CSS!
+    </marquee>
+
+    <h2>Introduction</h2>
+
+    <p>
+        Jeevan is a beginner-friendly website designed to demonstrate the
+        basic concepts of HTML and CSS. It showcases text formatting,
+        grid layouts, styling, colors, buttons, and scrolling text.
+    </p>
+
+    <h2>Our Features</h2>
+
+    <div class="grid">
+        <div class="box">HTML Basics</div>
+        <div class="box">CSS Styling</div>
+        <div class="box">Grid Layout</div>
+        <div class="box">Responsive Design</div>
+    </div>
+
+    <h2>About Jeevan</h2>
+
+    <p>
+        Our goal is to help beginners understand web development in a
+        simple and interactive way. HTML provides the structure of the
+        webpage, while CSS makes it attractive and visually appealing.
+    </p>
+
+    <button>Explore More</button>
+
+    <div class="footer">
+        © 2026 Jeevan | Designed using HTML & CSS
+    </div>
+
+</div>
+
+</body>
+</html>
