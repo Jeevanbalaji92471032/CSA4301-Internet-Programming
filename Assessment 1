@@ -5,72 +5,89 @@
 
     <style>
         body{
-            background-color:lightblue;
-            font-family:Cambria;
-            font-size:14px;
-            margin:0;
+            background-color: lightblue;
+            font-family: Cambria;
+            font-size: 14px;
+            margin: 0;
         }
 
         .container{
-            width:80%;
-            margin:auto;
-            text-align:center;
-            padding:20px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
         }
 
         h1{
-            color:darkblue;
+            color: darkblue;
         }
 
         h2{
-            color:blue;
+            color: blue;
         }
 
         p{
-            color:#003366;
-            line-height:1.6;
+            color: #003366;
+            line-height: 1.6;
         }
 
-        marquee{
-            color:blue;
-            font-weight:bold;
-            margin:15px 0;
+        /* Left Scrolling Text */
+        .scroll-text{
+            color: blue;
+            font-weight: bold;
+            margin: 15px 0;
         }
 
+        /* Upward Scrolling Text */
+        .scroll-up{
+            background-color: white;
+            border: 2px solid blue;
+            width: 300px;
+            height: 120px;
+            margin: auto;
+            color: blue;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        /* Grid Layout */
         .grid{
-            display:grid;
-            grid-template-columns:repeat(2,180px);
-            gap:15px;
-            justify-content:center;
-            margin:20px;
+            display: grid;
+            grid-template-columns: repeat(2,180px);
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
         }
 
         .box{
-            background:white;
-            border:2px solid blue;
-            padding:20px;
-            border-radius:10px;
-            color:blue;
+            background: white;
+            border: 2px solid blue;
+            padding: 20px;
+            border-radius: 10px;
+            color: blue;
+            font-weight: bold;
         }
 
+        /* Button */
         button{
-            background:blue;
-            color:white;
-            border:none;
-            padding:10px 20px;
-            font-size:14px;
-            cursor:pointer;
-            border-radius:5px;
+            background: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
         button:hover{
-            background:darkblue;
+            background: darkblue;
         }
 
+        /* Footer */
         .footer{
-            margin-top:30px;
-            color:navy;
-            font-weight:bold;
+            margin-top: 30px;
+            color: navy;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -81,17 +98,29 @@
 
     <h1>Welcome to Jeevan</h1>
 
-    <marquee>
-        Welcome to Jeevan - A simple website created using HTML and CSS!
+    <!-- Left Scrolling Text -->
+    <marquee class="scroll-text" direction="left">
+        🌐 Welcome to Jeevan - Learn HTML and CSS with a Simple Website!
     </marquee>
 
     <h2>Introduction</h2>
 
     <p>
-        Jeevan is a beginner-friendly website designed to demonstrate the
-        basic concepts of HTML and CSS. It showcases text formatting,
-        grid layouts, styling, colors, buttons, and scrolling text.
+        Jeevan is a beginner-friendly website created using HTML and CSS.
+        It demonstrates webpage design with colors, scrolling text,
+        grid layouts, buttons, and simple styling techniques.
     </p>
+
+    <h2>Latest Updates</h2>
+
+    <!-- Upward Scrolling Text -->
+    <marquee class="scroll-up" direction="up" scrollamount="2">
+        ✔ Learn HTML Basics <br><br>
+        ✔ Style pages using CSS <br><br>
+        ✔ Create Grid Layouts <br><br>
+        ✔ Design Attractive Webpages <br><br>
+        ✔ Practice Web Development
+    </marquee>
 
     <h2>Our Features</h2>
 
@@ -99,18 +128,19 @@
         <div class="box">HTML Basics</div>
         <div class="box">CSS Styling</div>
         <div class="box">Grid Layout</div>
-        <div class="box">Responsive Design</div>
+        <div class="box">Scrolling Text</div>
     </div>
 
     <h2>About Jeevan</h2>
 
     <p>
-        Our goal is to help beginners understand web development in a
-        simple and interactive way. HTML provides the structure of the
-        webpage, while CSS makes it attractive and visually appealing.
+        Jeevan is designed to help beginners understand the fundamentals
+        of web development. It combines HTML for webpage structure and
+        CSS for styling, making the webpage simple, attractive, and easy
+        to understand.
     </p>
 
-    <button>Explore More</button>
+    <button onclick="alert('Welcome to Jeevan!')">Explore More</button>
 
     <div class="footer">
         © 2026 Jeevan | Designed using HTML & CSS
