@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeevan</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-yellow-300">
+
+<div class="max-w-5xl mx-auto my-10 bg-black rounded-3xl shadow-2xl p-10 border-4 border-yellow-400">
+
+    <h1 class="text-5xl font-bold text-yellow-300 text-center drop-shadow-lg">
+        Welcome to Jeevan
+    </h1>
+
+    <marquee class="text-yellow-200 mt-5 text-lg font-semibold">
+        🚀 Learn HTML • CSS • Tailwind CSS • Build Modern Websites
+    </marquee>
+
+    <div class="mt-8 bg-yellow-200 rounded-2xl shadow-2xl p-6">
+
+        <h2 class="text-3xl font-bold text-black">
+            Introduction
+        </h2>
+
+        <p class="mt-3 text-gray-800 leading-8">
+            Jeevan is a beginner-friendly website designed to demonstrate
+            HTML, CSS and Tailwind CSS. This project uses modern layouts,
+            beautiful colors, responsive cards and strong shadow effects.
+        </p>
+
+    </div>
+
+    <div class="mt-8">
+
+        <h2 class="text-3xl font-bold text-yellow-300 text-center mb-6">
+            Latest Updates
+        </h2>
+
+        <div class="mx-auto w-80 h-40 bg-yellow-100 rounded-2xl shadow-2xl border-4 border-yellow-400 overflow-hidden">
+
+            <marquee direction="up" scrollamount="2" class="text-black font-semibold p-4">
+
+                ✔ Learn HTML Basics
+
+                <br><br>
+
+                ✔ Learn CSS Styling
+
+                <br><br>
+
+                ✔ Build Responsive Websites
+
+                <br><br>
+
+                ✔ Practice Tailwind CSS
+
+                <br><br>
+
+                ✔ Create Amazing UI
+
+            </marquee>
+
+        </div>
+
+    </div>
+
+    <h2 class="text-3xl text-center text-yellow-300 mt-10 font-bold">
+        Features
+    </h2>
+
+    <div class="grid grid-cols-2 gap-6 mt-6">
+
+        <div class="bg-yellow-200 rounded-2xl p-6 shadow-2xl hover:scale-105 duration-300 text-center font-bold">
+            HTML Basics
+        </div>
+
+        <div class="bg-yellow-200 rounded-2xl p-6 shadow-2xl hover:scale-105 duration-300 text-center font-bold">
+            CSS Styling
+        </div>
+
+        <div class="bg-yellow-200 rounded-2xl p-6 shadow-2xl hover:scale-105 duration-300 text-center font-bold">
+            Tailwind CSS
+        </div>
+
+        <div class="bg-yellow-200 rounded-2xl p-6 shadow-2xl hover:scale-105 duration-300 text-center font-bold">
+            Responsive Design
+        </div>
+
+    </div>
+
+    <div class="text-center mt-10">
+
+        <a href="ip_assesment_2_1.html">
+            <button class="bg-yellow-400 text-black px-10 py-3 rounded-xl shadow-2xl hover:bg-yellow-500 hover:scale-110 duration-300 font-bold">
+                Explore More
+            </button>
+        </a>
+
+    </div>
+
+    <footer class="text-center text-yellow-200 mt-10">
+        © 2026 Jeevan | Designed with HTML & Tailwind CSS
+    </footer>
+
+</div>
+
+</body>
+</html>
